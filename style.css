@@ -1,0 +1,145 @@
+:root{
+     --primary: #000000;
+     --secondary: #FFFFFF;
+}
+.dark-theme{
+     --primary: #ffffff;
+     --secondary: #000000;
+}
+
+body{
+     background-color: var(--secondary);
+     color: var(--primary);
+     
+}
+
+.first{
+     /* border: 5px solid black; */
+     background: url(image/stock2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.first h1{
+     color: white;
+     font-size: 35px;
+}
+
+.first h2{
+     text-align: justify;
+     color: rgb(255, 255, 255);
+     font-size: 23px;
+     margin-top: 100px;
+     font-weight: 400;
+     
+}
+
+hr{
+     color: var(--primary);
+}
+
+.CD, .SS, .BR, .FR{
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 500;    
+     
+}
+
+.card-menu{
+      /* border: 1px solid black; */
+      text-align: center; 
+      background-color: #FADC00;     
+      height: 100px;
+      box-shadow: 5px 3px 8px grey;
+}
+
+
+
+.card p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.icon-menu{
+      color: black;
+      width: 45px;
+      height: 40px;
+      margin: auto auto auto auto;
+      padding-top: 15px;
+}
+
+.menu :hover{
+      background-color: #e9d437;
+}
+
+.infoCD h4{
+      font-weight: 400;
+}
+
+.company_logo{
+      height: 110px;
+      width: 110px;
+}
+
+
+.card-br{
+      /* width: 300px; */
+      height:250px
+}
+
+.card-br h5{
+      font-weight: 500;
+      font-size: 15px;
+}
+
+.card-fr{
+      height: 400px;
+}
+
+#passed{
+      color: #35d455;
+      border-radius: 50%;
+      font-size: 100px;
+      
+  }
+  
+  #failed{
+      color: red;
+      border-radius: 50%;
+      font-size: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px){
+
+     /* .first h1 {
+       font-size: 40px;
+     }
+     .first h2 {
+       font-size: 20px;
+     } */
+}
+
